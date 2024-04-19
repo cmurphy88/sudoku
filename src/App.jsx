@@ -1,10 +1,11 @@
 import { createRoot } from "react-dom/client";
 import Sudoku from "./components/Sudoku/Sudoku";
+import styles from './App.module.scss';
 
 const App = () => {
     return (
-        <div>
-            <h1>Sudoku</h1>
+        <div className={styles.app}>
+            <h1 className={styles.title}>Sudoku</h1>
             <Sudoku />
         </div>
     );

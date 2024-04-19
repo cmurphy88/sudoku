@@ -1,13 +1,19 @@
 .container {
   align-self: center;
-  border: solid 10px red;
+  border: solid 2px red;
   width: 90%;
+  margin-top: 40px !important;
 }
 
 .board {
-  border: solid 10px blue;
+  border: solid 2px blue;
 }
 
 .square {
   border: solid 2px green
+}
+
+.cell {
+  font-family: sans-serif;
+
 }
